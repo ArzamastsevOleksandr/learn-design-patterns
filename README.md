@@ -45,3 +45,23 @@ responsibilities to an object dynamically.
 Decorators provide a flexible alternative to
 subclassing for extending functionality.
 
+A **Factory Method** handles object creation and encapsulates it in a
+subclass. This decouples the client code in the superclass from the
+object creation code in the subclass.
+
+The **Factory Method Pattern** defines an interface
+for creating an object, but lets subclasses decide which
+class to instantiate. Factory Method lets a class defer
+instantiation to subclasses.
+
+Design Principle: Depend upon abstractions. Do
+not depend upon concrete classes. (Dependency Inversion Principle).
+high-level components should not depend on low-level
+components; rather, they should both depend on abstractions.
+
+An Abstract Factory provides an interface for
+a family of products.
+
+The **Abstract Factory Pattern** provides an interface
+for creating families of related or dependent objects
+without specifying their concrete classes.
